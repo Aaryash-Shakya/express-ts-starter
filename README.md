@@ -1,6 +1,9 @@
-# Food Delivery API
+# EXPRESS TS STARTER
 
-Welcome to the Food Delivery API, a complete backend service for a food delivery system. This API provides a robust platform for handling food orders, user authentication, and restaurant management. Whether you're a restaurant owner or a developer looking to integrate food delivery functionality into your application, this API is a great starting point.
+A boiler plate template to start creating RESTful API.
+
+It contains a well structured and documented template all while maintaining DRY (Don't Repeat Yourself).
+It consists of a complete backend for a user (model, router, controller, validator). 
 
 ## <img src="https://cdn.iconscout.com/icon/free/png-256/free-layers-94-675757.png?f=webp" height=32 width=32> Tech Stack
 
@@ -11,20 +14,17 @@ Welcome to the Food Delivery API, a complete backend service for a food delivery
 
 ## 💡Features
 
+- **Password Encruption:** Password hasing and checking using bcrpyt
 - **User Authentication:** Secure user registration and login with JWT (JSON Web Tokens) for authentication.
 - **Email Verification:** Verify user email with noedmailer and mailtrap.
-- **Restaurant Management:** Add, update, and delete restaurant information. (coming soon)
-- **Menu Management:** Create and manage restaurant menus with items, prices, and descriptions. (coming soon)
-- **Order Management:** Allow users to place orders and track their delivery status. (coming soon)
-- **Real-time Updates:** Real-time updates on order status using WebSockets. (coming soon)
 
 ## 🧑‍💻 Installation
 Follow these steps to set up the Food Delivery API on your local development environment:
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/Aaryash-Shakya/food-delivery-api.git
-    cd food-delivery-api
+    git clone https://github.com/Aaryash-Shakya/express-ts-starter.git
+    cd express-ts-starter
     ```
 
 2. Install dependencies:
@@ -82,8 +82,8 @@ We welcome contributions from the open-source community to enhance my api's feat
     Then, clone the repository in ur machine using the command below
 
     ```sh
-    git clone https://github.com/<your-username>/food-delivery-api.git
-    cd food-delivery-api
+    git clone https://github.com/<your-username>/express-ts-starter.git
+    cd express-ts-starter
     ```
 
 3. **Make a breanch and add your changes:**
